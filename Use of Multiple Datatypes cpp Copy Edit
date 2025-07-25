@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    int roll = 101;
+    float marks = 87.5;
+    char grade = 'A';
+
+    cout << "Roll: " << roll << endl;
+    cout << "Marks: " << marks << endl;
+    cout << "Grade: " << grade << endl;
+
+    return 0;
+}
