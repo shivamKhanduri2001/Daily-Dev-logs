@@ -1,0 +1,20 @@
+#include<iostream>
+#include<string>  // required for string
+
+using namespace std;
+
+int main() {
+    string name;
+    bool isStudent;
+
+    cout << "Enter your name: ";
+    getline(cin, name);  // to read full name
+
+    cout << "Are you a student (1 for true / 0 for false): ";
+    cin >> isStudent;
+
+    cout << "Name: " << name << endl;
+    cout << "Is student: " << isStudent << endl;
+
+    return 0;
+}
