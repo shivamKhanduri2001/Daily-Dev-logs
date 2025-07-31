@@ -1,0 +1,7 @@
+int global_var;            // Static storage duration
+class MyClass {
+  static int static_var;   // Static storage duration
+};
+void myFunction() {
+  static int local_var;    // Static storage duration
+}
